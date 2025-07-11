@@ -31,6 +31,8 @@ import SupportGroups from "./pages/SupportGroups";
 import Recommendations from "./pages/Recommendations";
 import NotFound from "./pages/NotFound";
 import ProfileManager from "./components/ProfileManager";
+import Resources from "./pages/Resources";
+import About from "./pages/About";
 
 const queryClient = new QueryClient();
 
@@ -95,6 +97,8 @@ const App = () => (
             <Route path="/recommendations" element={<Recommendations />} />
             <Route path="/create-course" element={<Courses />} />
             <Route path="/detailed-reports" element={<Reports />} />
+            <Route path="/resources" element={<Resources />} />
+            <Route path="/about" element={<About />} />
             
             {/* Profile Management Route */}
             <Route path="/profile" element={<ProfileManager />} />

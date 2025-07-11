@@ -370,7 +370,7 @@ const ClientDashboard: React.FC = () => {
               </Button>
               <Button 
                 variant="outline" 
-                className="flex flex-col items-center p-6 h-auto"
+                className="flex flex-col items-center p-6 h-auto w-full text-purple-600"
                 onClick={handleBrowseCourses}
               >
                 <BookOpen className="h-6 w-6 mb-2" />
